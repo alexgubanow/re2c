@@ -1,3 +1,4 @@
+*.ac text !eol zos-working-tree-encoding=IBM-1047
 *.c text !eol zos-working-tree-encoding=UTF-8 diff=cpp
 *.cc text !eol zos-working-tree-encoding=UTF-8 diff=cpp
 *.h text !eol zos-working-tree-encoding=UTF-8 diff=cpp
@@ -8,7 +9,7 @@
 *.mk text !eol zos-working-tree-encoding=IBM-1047
 *.py text !eol zos-working-tree-encoding=UTF-8 diff=python
 *.rc text !eol zos-working-tree-encoding=IBM-1047
-*.sh text eol=lf
+*.sh text eol=lf zos-working-tree-encoding=IBM-1047
 
 * text=auto
 test/newlines/** -text
