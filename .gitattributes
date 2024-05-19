@@ -10,6 +10,7 @@
 *.py text !eol zos-working-tree-encoding=UTF-8 diff=python
 *.rc text !eol zos-working-tree-encoding=IBM-1047
 *.sh text eol=lf zos-working-tree-encoding=IBM-1047
+*.in text eol=lf zos-working-tree-encoding=IBM-1047
 
 * text=auto
 test/newlines/** -text
