@@ -1,9 +1,14 @@
-# Default to EBCDIC unless otherwise specified
-*                zos-working-tree-encoding=ibm-1047 git-encoding=iso8859-1
-
-# The git attributes and ignore files MUST be ASCII
-.gitattributes   zos-working-tree-encoding=iso8859-1 git-encoding=iso8859-1
-.gitignore       zos-working-tree-encoding=iso8859-1 git-encoding=iso8859-1
+*.c text !eol zos-working-tree-encoding=UTF-8 diff=cpp
+*.cc text !eol zos-working-tree-encoding=UTF-8 diff=cpp
+*.h text !eol zos-working-tree-encoding=UTF-8 diff=cpp
+*.m4 text !eol zos-working-tree-encoding=IBM-1047
+*.mak text !eol zos-working-tree-encoding=IBM-1047
+*.md text !eol zos-working-tree-encoding=UTF-8
+*.MF text !eol zos-working-tree-encoding=IBM-1047
+*.mk text !eol zos-working-tree-encoding=IBM-1047
+*.py text !eol zos-working-tree-encoding=UTF-8 diff=python
+*.rc text !eol zos-working-tree-encoding=IBM-1047
+*.sh text eol=lf
 
 * text=auto
 test/newlines/** -text
